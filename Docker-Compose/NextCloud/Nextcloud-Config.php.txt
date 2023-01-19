@@ -1,0 +1,7 @@
+Add This to config.php to look like this
+  'trusted_domains' =>
+  array (
+    0 => '127.0.0.1:8484',
+    1 => '192.168.1.xxx:8484',
+    2 => 'sub.domain.com',
+  ),
