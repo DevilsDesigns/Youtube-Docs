@@ -1,0 +1,12 @@
+subdomain.duckdns.org {
+    reverse_proxy 127.0.0.1:8096
+    tls {
+        dns duckdns access_token
+    }
+}
+subdomain.duckdns.org {
+    reverse_proxy 127.0.0.1:8989
+    tls {
+        dns duckdns access_token
+    }
+}
