@@ -1,0 +1,6 @@
+files.domain.com {
+    reverse_proxy 127.0.0.1:8484
+    tls {
+        dns cloudflare cloudflare-api
+    }
+}
